@@ -720,3 +720,96 @@ canvas {
     .blob { filter: blur(80px); opacity: 0.25; }
     .nav-bar { padding: 0.8rem 1rem; }
 }
+
+/* ============================================
+   COURS ML : extensions specifiques
+   ============================================ */
+
+body.ml-course {
+    --c-ml-accent: #14b8a6;
+    --c-ml-accent-soft: rgba(20, 184, 166, 0.18);
+    --c-ml-accent-strong: #0d9488;
+}
+
+.ml-course .course-header h1::after {
+    content: 'ML';
+    display: inline-block;
+    margin-left: 0.6rem;
+    padding: 0.15rem 0.55rem;
+    font-size: 0.35em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    background: var(--c-ml-accent);
+    color: white;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+
+.ml-course .module-card .module-number {
+    background: var(--c-ml-accent-soft);
+    color: var(--c-ml-accent);
+}
+
+.ml-course .module-card:hover {
+    border-color: var(--c-ml-accent);
+}
+
+.part-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.4rem;
+    margin: 3rem 0 1rem 0;
+    padding-left: 0.8rem;
+    border-left: 4px solid var(--c-ml-accent);
+}
+
+.demo-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.demo-controls .control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    min-width: 180px;
+}
+
+.demo-controls .control label {
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.demo-controls .control button {
+    padding: 0.5rem 0.8rem;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    color: inherit;
+    font-family: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+.demo-controls .control button:hover {
+    border-color: var(--c-ml-accent);
+    background: rgba(20,184,166,0.1);
+}
+
+.demo-controls .control select,
+.demo-controls .control input[type="range"] {
+    padding: 0.3rem;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    color: inherit;
+    font-family: inherit;
+}
+
