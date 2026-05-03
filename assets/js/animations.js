@@ -1,5 +1,5 @@
 /* ============================================
-   Deep Learning Course — Shared Animation Utils
+   Deep Learning Course : Shared Animation Utils
    (Glassmorphism theme)
    ============================================ */
 
@@ -21,7 +21,7 @@ const DL = {
         neuronStroke: '#a78bfa',
         connectionPos: 'rgba(94, 234, 212, 0.7)',
         connectionNeg: 'rgba(251, 113, 133, 0.7)',
-        // Semantic colors — math notation
+        // Semantic colors : math notation
         input: '#5eead4',       // x
         weight: '#c4b5fd',      // w
         bias: '#60a5fa',        // b

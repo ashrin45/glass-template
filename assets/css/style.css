@@ -1,5 +1,5 @@
 /* ============================================
-   Deep Learning Course — Glassmorphism Theme
+   Deep Learning Course : Glassmorphism Theme
    ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -22,7 +22,7 @@
     --border: rgba(255,255,255,0.12);
     --border-hover: rgba(255,255,255,0.25);
 
-    /* Semantic colors — math notation */
+    /* Semantic colors : math notation */
     --c-input: #5eead4;
     --c-weight: #c4b5fd;
     --c-bias: #60a5fa;
@@ -51,7 +51,7 @@ body {
 }
 
 /* ============================================
-   BACKGROUND — Mesh gradient + blobs
+   BACKGROUND : Mesh gradient + blobs
    ============================================ */
 
 .bg-mesh {
@@ -629,7 +629,7 @@ canvas {
 }
 
 /* ============================================
-   MODULE 5 — Fit cards (underfitting/overfitting)
+   MODULE 5 : Fit cards (underfitting/overfitting)
    ============================================ */
 
 .fit-cards {
@@ -666,7 +666,7 @@ canvas {
 }
 
 /* ============================================
-   MODULE 6 — Sub-sections & gate boxes
+   MODULE 6 : Sub-sections & gate boxes
    ============================================ */
 
 .sub-section {
