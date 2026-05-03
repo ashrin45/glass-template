@@ -550,9 +550,15 @@ canvas {
     background: rgba(251,191,36,0.08);
     border-color: var(--warning);
 }
-.info-box strong {
+.info-box > strong {
     display: block;
     margin-bottom: 0.3rem;
+    color: var(--text-primary);
+}
+.info-box ul strong,
+.info-box p strong,
+.info-box li strong {
+    display: inline;
     color: var(--text-primary);
 }
 
