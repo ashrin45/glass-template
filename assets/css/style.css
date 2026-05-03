@@ -719,6 +719,16 @@ canvas {
     .slider-row label { min-width: 100%; }
     .blob { filter: blur(80px); opacity: 0.25; }
     .nav-bar { padding: 0.8rem 1rem; }
+    .ml-course .demo-container canvas {
+        max-width: 100%;
+        height: auto;
+    }
+    .ml-course .demo-controls {
+        flex-direction: column;
+    }
+    .ml-course .demo-controls .control {
+        min-width: 100%;
+    }
 }
 
 /* ============================================
